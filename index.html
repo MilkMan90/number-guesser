@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Number Guesser</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="script.js" async></script>
+  </head>
+
+  <body>
+    <main>
+      <h1>Number Guesser</h1>
+
+      <section id='feedback'>
+        <p id='last-guess-text'>Your last guess was...</p>
+        <p id='last-guess'>___</p>
+        <p id='helpful-hint'>&nbsp;</p>
+      </section>
+
+      <section>
+        <input type="text" id="guess" maxlength="3" name="guess" placeholder="Your best guess">
+      </section>
+      <section>
+        <button class='btn' id="submitBtn" type="submit">Submit</button>
+        <button class="btn" id="clearBtn" type="reset">Clear</button><br>
+        <button class="btn" id="newGameBtn" type="reset">New Game</button>
+      </section>
+
+      <h4>Guess Here</h4>
+      <h5>Target Number</h5>
+
+    </main>
+  </body>
+</html>
